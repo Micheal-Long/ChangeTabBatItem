@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // window设置
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.backgroundColor = .white
+        window!.makeKeyAndVisible()
+        //  默认rootView
+        window!.rootViewController = WPTabBarController()
+//        Thread.sleep(forTimeInterval: 2.0)
         return true
     }
 

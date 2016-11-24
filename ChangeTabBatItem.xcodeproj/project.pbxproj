@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044B22CD1DE572CE00F22A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22CC1DE572CE00F22A92 /* AppDelegate.swift */; };
 		044B22CF1DE572CE00F22A92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22CE1DE572CE00F22A92 /* ViewController.swift */; };
 		044B22D21DE572CE00F22A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B22D01DE572CE00F22A92 /* Main.storyboard */; };
-		044B22D41DE572CE00F22A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B22D31DE572CE00F22A92 /* Assets.xcassets */; };
 		044B22D71DE572CE00F22A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B22D51DE572CE00F22A92 /* LaunchScreen.storyboard */; };
+		044B22FA1DE5807700F22A92 /* WPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22F91DE5807700F22A92 /* WPTabBarController.swift */; };
+		044B22FC1DE5809600F22A92 /* WPDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22FB1DE5809600F22A92 /* WPDiscoverViewController.swift */; };
+		044B22FE1DE580A400F22A92 /* WPContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22FD1DE580A400F22A92 /* WPContactViewController.swift */; };
+		044B23001DE580B200F22A92 /* WPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B22FF1DE580B200F22A92 /* WPHomeViewController.swift */; };
+		044B23021DE580CF00F22A92 /* WPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B23011DE580CF00F22A92 /* WPMineViewController.swift */; };
+		044B23041DE5813800F22A92 /* WPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B23031DE5813800F22A92 /* WPNavigationController.swift */; };
+		044B23081DE5956700F22A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B23071DE5956700F22A92 /* AppDelegate.swift */; };
+		044B230A1DE5977400F22A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B23091DE5977400F22A92 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		044B22C91DE572CE00F22A92 /* ChangeTabBatItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTabBatItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		044B22CC1DE572CE00F22A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044B22CE1DE572CE00F22A92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044B22CE1DE572CE00F22A92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		044B22D11DE572CE00F22A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		044B22D31DE572CE00F22A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044B22D61DE572CE00F22A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		044B22D81DE572CE00F22A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B22D81DE572CE00F22A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		044B22F91DE5807700F22A92 /* WPTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPTabBarController.swift; sourceTree = "<group>"; };
+		044B22FB1DE5809600F22A92 /* WPDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPDiscoverViewController.swift; sourceTree = "<group>"; };
+		044B22FD1DE580A400F22A92 /* WPContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPContactViewController.swift; sourceTree = "<group>"; };
+		044B22FF1DE580B200F22A92 /* WPHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPHomeViewController.swift; sourceTree = "<group>"; };
+		044B23011DE580CF00F22A92 /* WPMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMineViewController.swift; sourceTree = "<group>"; };
+		044B23031DE5813800F22A92 /* WPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPNavigationController.swift; sourceTree = "<group>"; };
+		044B23071DE5956700F22A92 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChangeTabBatItem/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		044B23091DE5977400F22A92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,241 @@
 		044B22CB1DE572CE00F22A92 /* ChangeTabBatItem */ = {
 			isa = PBXGroup;
 			children = (
-				044B22CC1DE572CE00F22A92 /* AppDelegate.swift */,
-				044B22CE1DE572CE00F22A92 /* ViewController.swift */,
-				044B22D01DE572CE00F22A92 /* Main.storyboard */,
-				044B22D31DE572CE00F22A92 /* Assets.xcassets */,
-				044B22D51DE572CE00F22A92 /* LaunchScreen.storyboard */,
-				044B22D81DE572CE00F22A92 /* Info.plist */,
+				044B22F81DE577CF00F22A92 /* ReSource */,
+				044B22DE1DE5763600F22A92 /* Class */,
 			);
 			path = ChangeTabBatItem;
+			sourceTree = "<group>";
+		};
+		044B22DE1DE5763600F22A92 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				044B22F41DE5763600F22A92 /* Wechat(微信) */,
+				044B22DF1DE5763600F22A92 /* Contact(联系人) */,
+				044B22E31DE5763600F22A92 /* Discover(发现) */,
+				044B22F01DE5763600F22A92 /* Mine(我) */,
+				044B22E71DE5763600F22A92 /* Main(主要) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		044B22DF1DE5763600F22A92 /* Contact(联系人) */ = {
+			isa = PBXGroup;
+			children = (
+				044B22E01DE5763600F22A92 /* Controller */,
+				044B22E11DE5763600F22A92 /* Model */,
+				044B22E21DE5763600F22A92 /* View */,
+			);
+			name = "Contact(联系人)";
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		044B22E01DE5763600F22A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044B22FD1DE580A400F22A92 /* WPContactViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044B22E11DE5763600F22A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B22E21DE5763600F22A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044B22E31DE5763600F22A92 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				044B22E41DE5763600F22A92 /* Controller */,
+				044B22E51DE5763600F22A92 /* Model */,
+				044B22E61DE5763600F22A92 /* View */,
+			);
+			name = "Discover(发现)";
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		044B22E41DE5763600F22A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044B22FB1DE5809600F22A92 /* WPDiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044B22E51DE5763600F22A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B22E61DE5763600F22A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044B22E71DE5763600F22A92 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				044B22E81DE5763600F22A92 /* Catgory */,
+				044B22E91DE5763600F22A92 /* Controller */,
+				044B22EA1DE5763600F22A92 /* Lib */,
+				044B22EB1DE5763600F22A92 /* Model */,
+				044B22EC1DE5763600F22A92 /* Other */,
+				044B22ED1DE5763600F22A92 /* PCH */,
+				044B22EE1DE5763600F22A92 /* Tool */,
+				044B22EF1DE5763600F22A92 /* View */,
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		044B22E81DE5763600F22A92 /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catgory;
+			sourceTree = "<group>";
+		};
+		044B22E91DE5763600F22A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044B22F91DE5807700F22A92 /* WPTabBarController.swift */,
+				044B23031DE5813800F22A92 /* WPNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044B22EA1DE5763600F22A92 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		044B22EB1DE5763600F22A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B22EC1DE5763600F22A92 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				044B23071DE5956700F22A92 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		044B22ED1DE5763600F22A92 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		044B22EE1DE5763600F22A92 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		044B22EF1DE5763600F22A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044B22F01DE5763600F22A92 /* Mine(我) */ = {
+			isa = PBXGroup;
+			children = (
+				044B22F11DE5763600F22A92 /* Controller */,
+				044B22F21DE5763600F22A92 /* Model */,
+				044B22F31DE5763600F22A92 /* View */,
+			);
+			name = "Mine(我)";
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		044B22F11DE5763600F22A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044B23011DE580CF00F22A92 /* WPMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044B22F21DE5763600F22A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B22F31DE5763600F22A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044B22F41DE5763600F22A92 /* Wechat(微信) */ = {
+			isa = PBXGroup;
+			children = (
+				044B22F51DE5763600F22A92 /* Controller */,
+				044B22F61DE5763600F22A92 /* Model */,
+				044B22F71DE5763600F22A92 /* View */,
+			);
+			name = "Wechat(微信)";
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		044B22F51DE5763600F22A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044B22FF1DE580B200F22A92 /* WPHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044B22F61DE5763600F22A92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B22F71DE5763600F22A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044B22F81DE577CF00F22A92 /* ReSource */ = {
+			isa = PBXGroup;
+			children = (
+				044B22CE1DE572CE00F22A92 /* ViewController.swift */,
+				044B22D01DE572CE00F22A92 /* Main.storyboard */,
+				044B22D51DE572CE00F22A92 /* LaunchScreen.storyboard */,
+				044B22D81DE572CE00F22A92 /* Info.plist */,
+				044B23091DE5977400F22A92 /* Images.xcassets */,
+			);
+			path = ReSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +329,7 @@
 		044B22C11DE572CE00F22A92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WP;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Micheal;
@@ -125,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044B22D71DE572CE00F22A92 /* LaunchScreen.storyboard in Resources */,
-				044B22D41DE572CE00F22A92 /* Assets.xcassets in Resources */,
+				044B230A1DE5977400F22A92 /* Images.xcassets in Resources */,
 				044B22D21DE572CE00F22A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +377,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044B23081DE5956700F22A92 /* AppDelegate.swift in Sources */,
+				044B22FE1DE580A400F22A92 /* WPContactViewController.swift in Sources */,
 				044B22CF1DE572CE00F22A92 /* ViewController.swift in Sources */,
-				044B22CD1DE572CE00F22A92 /* AppDelegate.swift in Sources */,
+				044B23041DE5813800F22A92 /* WPNavigationController.swift in Sources */,
+				044B23001DE580B200F22A92 /* WPHomeViewController.swift in Sources */,
+				044B22FA1DE5807700F22A92 /* WPTabBarController.swift in Sources */,
+				044B23021DE580CF00F22A92 /* WPMineViewController.swift in Sources */,
+				044B22FC1DE5809600F22A92 /* WPDiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +397,7 @@
 				044B22D11DE572CE00F22A92 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		044B22D51DE572CE00F22A92 /* LaunchScreen.storyboard */ = {
@@ -159,6 +406,7 @@
 				044B22D61DE572CE00F22A92 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -204,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E98CQ6NJE7;
 				INFOPLIST_FILE = ChangeTabBatItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blrise.ChangeTabBatItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E98CQ6NJE7;
 				INFOPLIST_FILE = ChangeTabBatItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blrise.ChangeTabBatItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +552,7 @@
 				044B22DD1DE572CE00F22A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
