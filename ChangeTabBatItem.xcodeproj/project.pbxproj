@@ -18,6 +18,7 @@
 		044B23041DE5813800F22A92 /* WPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B23031DE5813800F22A92 /* WPNavigationController.swift */; };
 		044B23081DE5956700F22A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B23071DE5956700F22A92 /* AppDelegate.swift */; };
 		044B230A1DE5977400F22A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B23091DE5977400F22A92 /* Images.xcassets */; };
+		049258A41DE6900D005A6811 /* WPChangeItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049258A31DE6900D005A6811 /* WPChangeItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		044B23031DE5813800F22A92 /* WPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPNavigationController.swift; sourceTree = "<group>"; };
 		044B23071DE5956700F22A92 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChangeTabBatItem/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		044B23091DE5977400F22A92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		049258A31DE6900D005A6811 /* WPChangeItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPChangeItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				044B23011DE580CF00F22A92 /* WPMineViewController.swift */,
+				049258A31DE6900D005A6811 /* WPChangeItemTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				044B22FE1DE580A400F22A92 /* WPContactViewController.swift in Sources */,
 				044B22CF1DE572CE00F22A92 /* ViewController.swift in Sources */,
 				044B23041DE5813800F22A92 /* WPNavigationController.swift in Sources */,
+				049258A41DE6900D005A6811 /* WPChangeItemTableViewController.swift in Sources */,
 				044B23001DE580B200F22A92 /* WPHomeViewController.swift in Sources */,
 				044B22FA1DE5807700F22A92 /* WPTabBarController.swift in Sources */,
 				044B23021DE580CF00F22A92 /* WPMineViewController.swift in Sources */,
