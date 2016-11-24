@@ -21,8 +21,24 @@ class WPMineViewController: UIViewController,UITableViewDelegate,UITableViewData
         tableView!.tableFooterView = UIView()
         tableView!.tableHeaderView = UIView()
         view.addSubview(tableView!)
+        //  设置分割线从最左边开始
+        if tableView!.responds(to: #selector(setter: UITableViewCell.separatorInset)) {
+            tableView!.separatorInset = .zero
+        }
+        if tableView!.responds(to: #selector(setter: UITableViewCell.layoutMargins)) {
+            tableView!.layoutMargins = .zero
+        }
     }
-    
+    //  MARK: - UITableViewDataSource 
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if cell.responds(to: #selector(setter: UITableViewCell.separatorInset)) {
+            cell.separatorInset = .zero
+        }
+        if cell.responds(to: #selector(setter: UITableViewCell.layoutMargins)) {
+            cell.layoutMargins = .zero
+        }
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }

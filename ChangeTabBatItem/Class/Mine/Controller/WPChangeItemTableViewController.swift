@@ -18,6 +18,13 @@ class WPChangeItemTableViewController: UITableViewController {
         title = "首页TabBar设置"
         tableView.tableHeaderView = UIView()
         tableView.tableFooterView = UIView()
+        //  设置分割线从最左边开始
+        if tableView.responds(to: #selector(setter: UITableViewCell.separatorInset)) {
+            tableView.separatorInset = .zero
+        }
+        if tableView.responds(to: #selector(setter: UITableViewCell.layoutMargins)) {
+            tableView.layoutMargins = .zero
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +33,15 @@ class WPChangeItemTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if cell.responds(to: #selector(setter: UITableViewCell.separatorInset)) {
+            cell.separatorInset = .zero
+        }
+        if cell.responds(to: #selector(setter: UITableViewCell.layoutMargins)) {
+            cell.layoutMargins = .zero
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }

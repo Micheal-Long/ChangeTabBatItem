@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.makeKeyAndVisible()
         //  默认rootView
         window!.rootViewController = WPTabBarController()
-//        Thread.sleep(forTimeInterval: 2.0)
+        Thread.sleep(forTimeInterval: 2.0)
         return true
     }
 
